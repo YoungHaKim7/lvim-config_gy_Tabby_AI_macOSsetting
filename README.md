@@ -16,4 +16,6 @@ https://github.com/NTBBloodbath/zig-tools.nvim
 
 
 # Todo
-[ ] zig-tools(lsp)
+- [x] Apply jk as esc
+- [x] Apply Relative Number
+- [ ] zig-tools (lsp) will be applied.
