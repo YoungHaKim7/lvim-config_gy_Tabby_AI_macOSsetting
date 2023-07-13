@@ -22,4 +22,17 @@ https://github.com/NTBBloodbath/zig-tools.nvim
     lvim.keys.insert_mode["jk"] = "<Esc>"
     ```
 - [x] Apply Relative Number
+  - /lua/user/option.lua
+  - ```
+    local options = {
+        relativenumber = true, -- set relative numbered lines
+    }
+    ``` 
+- [x] Apply colorscheme
+  - - /lua/user/option.lua
+  - ```
+    -- lvim.colorscheme = "tokyonight-moon"
+    -- lvim.colorscheme = "gruvbox-material"
+    lvim.colorscheme = "habamax"
+    ``` 
 - [ ] zig-tools (lsp) will be applied.
