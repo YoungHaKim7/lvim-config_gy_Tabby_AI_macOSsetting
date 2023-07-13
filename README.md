@@ -17,5 +17,9 @@ https://github.com/NTBBloodbath/zig-tools.nvim
 
 # Todo
 - [x] Apply jk as esc
+  - /lua/user/keymaps.lua
+  - ```
+    lvim.keys.insert_mode["jk"] = "<Esc>"
+    ```
 - [x] Apply Relative Number
 - [ ] zig-tools (lsp) will be applied.
