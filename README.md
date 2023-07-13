@@ -13,3 +13,7 @@ https://github.com/adibhanna/lvim-config
 # zig lang setting 난중에 적용할 예정
 
 https://github.com/NTBBloodbath/zig-tools.nvim
+
+
+# Todo
+[ ] zig-tools(lsp)
