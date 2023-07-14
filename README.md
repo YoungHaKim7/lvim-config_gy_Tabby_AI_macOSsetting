@@ -1,5 +1,9 @@
 # lvim-config_gyoung
 
+1. install
+https://www.lunarvim.org/
+
+2. .config/lvim 세팅
 
 # 이거 원래 주인 영상 My Development Setup (Neovim, Tmux, Alacritty & Rust-based CLI Tools)
 
