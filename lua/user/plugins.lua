@@ -69,6 +69,8 @@ lvim.plugins = {
     end,
   },
   "monaqa/dial.nvim",
+  -- : nmap <F8> :TagbarToggle<CR>
+  "preservim/tagbar",
   -- "MunifTanjim/nui.nvim",
   -- "jackMort/ChatGPT.nvim",
   -- "Bryley/neoai.nvim"

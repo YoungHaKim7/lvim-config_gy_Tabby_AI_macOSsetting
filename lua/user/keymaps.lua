@@ -17,6 +17,7 @@ lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 
 lvim.keys.normal_mode["<leader>t"] = "<cmd>TroubleToggle<CR>"
 lvim.keys.normal_mode["<leader>o"] = "<cmd>SymbolsOutline<CR>"
+lvim.keys.normal_mode["<leader>v"] = "<cmd>TagbarToggle<CR>"
 
 lvim.keys.insert_mode["jk"] = "<Esc>"
 
