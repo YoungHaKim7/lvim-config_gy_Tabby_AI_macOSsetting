@@ -74,4 +74,8 @@ lvim.plugins = {
   -- "MunifTanjim/nui.nvim",
   -- "jackMort/ChatGPT.nvim",
   -- "Bryley/neoai.nvim"
+  -- "kylechui/nvim-surround",
+  "tpope/vim-surround",
+  -- :UnicodeTable    - Print Unicode Table in new window
+  "chrisbra/unicode.vim"
 }
