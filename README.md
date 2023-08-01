@@ -4,6 +4,13 @@
 $ cargo fmt && cargo check
 ```
 
+- inlayhint 색깔 hex color
+
+```bash
+// 어두운 빨간색 글씨는 약간 밝은 색
+:hi Comment guifg=#8aaecf guibg=#4e1a1a
+```
+
 <hr>
 
 # lvim-config_gyoung
