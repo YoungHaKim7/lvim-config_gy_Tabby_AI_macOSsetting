@@ -4,7 +4,7 @@
 $ cargo fmt && cargo check
 ```
 
-- inlayhint 색깔 hex color
+- inlayhint 색깔 hex color (LunarVim Inlayhint Color Settings)
 
 ```bash
 // 어두운 빨간색 글씨는 약간 밝은 색
