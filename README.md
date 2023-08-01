@@ -1,3 +1,11 @@
+# lvim 쓸 때 ```cargo fmt && cargo check``` 활용하자
+
+```bash
+$ cargo fmt && cargo check
+```
+
+<hr>
+
 # lvim-config_gyoung
 
 1. install
