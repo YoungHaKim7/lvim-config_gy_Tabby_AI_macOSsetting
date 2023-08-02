@@ -17,7 +17,7 @@ lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 
 lvim.keys.normal_mode["<leader>t"] = "<cmd>TroubleToggle<CR>"
 lvim.keys.normal_mode["<leader>o"] = "<cmd>SymbolsOutline<CR>"
-lvim.keys.normal_mode["<leader>v"] = "<cmd>TagbarToggle<CR>"
+-- lvim.keys.normal_mode["<leader>v"] = "<cmd>TagbarToggle<CR>"
 
 lvim.keys.insert_mode["jk"] = "<Esc>"
 
@@ -30,9 +30,9 @@ keymap("n", "<m-l>", "<C-w>l", opts)
 keymap("n", "<m-tab>", "<c-6>", opts)
 
 -- Resize with arrows
--- keymap("n", "<C-Up>", ":resize -2<CR>", opts)
--- keymap("n", "<C-Down>", ":resize +2<CR>", opts)
--- keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
--- keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
+keymap("n", "<C-K>", ":resize -2<CR>", opts)
+keymap("n", "<C-J>", ":resize +2<CR>", opts)
+keymap("n", "<C-H>", ":vertical resize -2<CR>", opts)
+keymap("n", "<C-L>", ":vertical resize +2<CR>", opts)
 
 return M

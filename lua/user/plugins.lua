@@ -69,13 +69,55 @@ lvim.plugins = {
     end,
   },
   "monaqa/dial.nvim",
-  -- : nmap <F8> :TagbarToggle<CR>
-  "preservim/tagbar",
   -- "MunifTanjim/nui.nvim",
   -- "jackMort/ChatGPT.nvim",
   -- "Bryley/neoai.nvim"
-  -- "kylechui/nvim-surround",
-  "tpope/vim-surround",
+  {
+    "tpope/vim-surround",
+
+    -- make sure to change the value of `timeoutlen` if it's not triggering correctly, see https://github.com/tpope/vim-surround/issues/117
+    -- setup = function()
+      --  vim.o.timeoutlen = 500
+    -- end
+  },
   -- :UnicodeTable    - Print Unicode Table in new window
-  "chrisbra/unicode.vim"
+  "chrisbra/unicode.vim",
+  -- cargo fmt
+  {
+    "rust-lang/rust.vim",
+    ft = "rust",
+    init = function ()
+      vim.g.rustfmt_autosave = 1
+    end
+  },
+  -- {
+  --   "preservim/tagbar",
+  -- },
+  -- -- {
+  -- --  "liuchengxu/vista.vim",
+  -- -- },
+  -- {
+  --   "ziglang/zig.vim"
+  -- },
+  -- {
+  --     "NTBBloodbath/zig-tools.nvim",
+  --   -- Load zig-tools.nvim only in Zig buffers
+  --   ft = "zig",
+  --   config = function()
+  --     -- Initialize with default config
+  --     dependencies("zig-tools").init()
+  --   end,
+  --   dependencies = {
+  --     {
+  --       "akinsho/toggleterm.nvim",
+  --       config = function()
+  --         dependencies("toggleterm").init()
+  --       end,
+  --     },
+  --     {
+  --       "nvim-lua/plenary.nvim",
+  --       module_pattern = "plenary.*"
+  --     }
+  --   },
+  -- },
 }
