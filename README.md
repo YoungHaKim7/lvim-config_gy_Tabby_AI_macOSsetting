@@ -55,3 +55,8 @@ https://github.com/NTBBloodbath/zig-tools.nvim
     lvim.colorscheme = "habamax"
     ``` 
 - [ ] zig-tools (lsp) will be applied.
+# Result
+
+```
+
+```
