@@ -11,6 +11,8 @@ $ cargo fmt && cargo check
 :hi Comment guifg=#8aaecf guibg=#4e1a1a
 ```
 
+
+
 <hr>
 
 # lvim-config_gyoung
@@ -54,7 +56,29 @@ https://github.com/NTBBloodbath/zig-tools.nvim
     -- lvim.colorscheme = "gruvbox-material"
     lvim.colorscheme = "habamax"
     ``` 
+
+- [x] Rust fmt Setting()
+
+  - https://github.com/rust-lang/rust.vim
+  - The perfect Neovim setup for Rust. https://youtu.be/mh_EJhH49Ms
+
+    - /lua/user/plugins.lua
+    ```bash
+    -- cargo fmt
+      {
+        "rust-lang/rust.vim",
+        ft = "rust",
+        init = function ()
+          vim.g.rustfmt_autosave = 1
+        end
+      },
+
+    ```
+
 - [ ] zig-tools (lsp) will be applied.
+
+
+
 # Result
 
 ```
