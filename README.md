@@ -77,10 +77,5 @@ https://github.com/NTBBloodbath/zig-tools.nvim
 
 - [ ] zig-tools (lsp) will be applied.
 
+  - todo!()
 
-
-# Result
-
-```
-
-```
