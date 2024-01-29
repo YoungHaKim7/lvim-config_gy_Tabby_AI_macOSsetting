@@ -90,6 +90,12 @@ lvim.plugins = {
       vim.g.rustfmt_autosave = 1
     end
   },
+  {
+    "TabbyML/vim-tabby",
+  },
+  {
+    "rafamadriz/friendly-snippets",
+  },
   -- {
   --   "preservim/tagbar",
   -- },
