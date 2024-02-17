@@ -18,7 +18,7 @@ pcall(function()
                 max_len_align_padding = 1,
                 right_align = false,
                 right_align_padding = 7,
-                highlight = "Comment",
+                highlight = "LspInlayHint",
             },
             hover_actions = {
                 border = "rounded",
