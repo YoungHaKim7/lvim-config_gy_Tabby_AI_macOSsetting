@@ -4,16 +4,17 @@
 $ cargo fmt && cargo check
 ```
 
-- inlayhint 색깔 hex color (LunarVim Inlayhint Color Settings)
+- 요즘 쓰는 LspInlayHint Color Setting[🔝]
+  - Inlayhint 색깔 hex color (LunarVim Inlayhint Color Settings)
 
 ```bash
 // 요즘 쓰는 색 240106
+:hi LspInlayHint guifg=#35638f guibg=#420517
 :hi Comment guifg=#35638f guibg=#420517
 
 // 배경은 어두운 빨간색 /  글씨는 약간 밝은 색
 :hi Comment guifg=#8aaecf guibg=#4e1a1a
 ```
-
 
 
 <hr>
