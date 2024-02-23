@@ -13,9 +13,9 @@ reload "user.inlay-hints"
 reload "user.functions"
 reload "user.dial"
 reload "user.lspconfig"
+reload "user.tabbyai"
 
 -- reload "user.chatgpt"
 -- reload "user.neoai"
 
 -- jk <Esc>
-
