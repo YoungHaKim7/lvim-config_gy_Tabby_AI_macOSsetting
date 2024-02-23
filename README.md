@@ -79,7 +79,7 @@ https://github.com/NTBBloodbath/zig-tools.nvim
 
     ```
 
-- [ ] zig-tools (lsp) will be applied.
+- [x] zig-tools (lsp) will be applied.
 
-  - todo!()
+  - Good
 
