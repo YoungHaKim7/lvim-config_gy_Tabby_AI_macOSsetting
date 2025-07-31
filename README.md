@@ -1,3 +1,20 @@
+# `brew services start tabbyml/tabby/tabby`
+
+```
+> tabby
+Please note tabby expects to read its configuration file from
+/Users/gy-gyoung/.tabby/config.toml
+
+For more information see https://tabby.tabbyml.com/docs/administration/model/
+
+For a list of the available models see https://tabby.tabbyml.com/docs/models/
+
+To start tabbyml/tabby/tabby now and restart at login:
+  brew services start tabbyml/tabby/tabby
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/tabby/bin/tabby serve --device metal
+```
+
 # lvim 쓸 때 ```cargo fmt && cargo check``` 활용하자
 
 ```bash
